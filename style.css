@@ -4,12 +4,11 @@
 }
 .menu-container{
     background-color: rgb(49, 49, 49);
-    height: 80px;
+    height: 70px;
     display: flex;
     color: aliceblue;
     align-items: center;
     list-style: none;
-    box-shadow: 2px 2px 2px;
     justify-content: space-around;
 }
 .logo-photo{
@@ -17,6 +16,9 @@
     
 }
 
+.logo-photo:hover{
+    cursor: grab;
+}
 .menu{
     display: flex;
     padding-left: 800px;
@@ -28,5 +30,56 @@ padding: 8px;
 
 .item:hover{
     color: orange;
+    cursor: pointer;
+}
+
+.banner-img{
+    width: 400px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: aliceblue;
+    background-image: url("./Image/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 52, 52));
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.descrip{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+.reference{
+    font-size: 12px;
+    color: brown;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    color: aliceblue;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    color:black;
+    background-color: white;
     cursor: pointer;
 }
