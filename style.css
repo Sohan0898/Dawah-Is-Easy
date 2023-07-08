@@ -17,7 +17,7 @@
 }
 
 .logo-photo:hover{
-    cursor: grab;
+    cursor: pointer;
 }
 .menu{
     display: flex;
@@ -166,10 +166,61 @@ padding: 8px;
     padding: 10px;
     padding-bottom: 25px;
     background-image: url("./Image/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 52, 52));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .box-service{
     background-image: url("./Image/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(52, 52, 52));
     color: aliceblue;
     padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot-logo{
+    width: 100px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    height: 350px;
+    align-items: center;
+
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-des{
+    width: 200px;
+    height: 220px;
+}
+
+
+
+.footer-link{
+    list-style: none;
+    width: 200px;
+    height: 220px;
+
+}
+
+.copywrite{
+ padding: 20px;
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    border: none;
+}
+
+.foot-head{
+  size: 20px;
 }
