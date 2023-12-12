@@ -1,0 +1,59 @@
+[
+    {
+      "name": "HTML",
+      "level": "advanced",
+      "image": "https://i.ibb.co/3k9cmrZ/html.png"
+    },
+    {
+      "name": "CSS",
+      "level": "intermediate",
+      "image": "https://i.ibb.co/NVQc4rq/social.png"
+    },
+    {
+      "name": "JavaScript",
+      "level": "intermediate",
+      "image": "https://i.ibb.co/HqsyFjY/js.png"
+    },
+    {
+      "name": "Tailwind",
+      "level": "intermediate",
+      "image": "https://i.ibb.co/1rRrVwr/tailwind-css-icon.png"
+    },
+    {
+      "name": "React.js",
+      "level": "intermediate",
+      "image": "https://i.ibb.co/kJtqYWR/physics.png"
+    },
+    {
+      "name": "Material UI",
+      "level": "beginner",
+      "image": "https://i.ibb.co/D9G740F/icons8-material-ui-480.png"
+    },
+    {
+      "name": "Express",
+      "level": "beginner",
+      "image": "https://i.ibb.co/nnLWRrJ/icons8-express-js-500.png"
+    },
+    
+    {
+      "name": "Node.js",
+      "level": "beginner",
+      "image": "https://i.ibb.co/fGNHP4D/icons8-nodejs-480.png"
+    },
+    {
+      "name": "MongoDB",
+      "level": "beginner",
+      "image": "https://i.ibb.co/1ZSv5W3/icons8-mongodb-a-cross-platform-document-oriented-database-program-96.png"
+    },
+    {
+        "name": "Firebase",
+        "level": "intermediate",
+        "image": "https://i.ibb.co/H2Jcpfr/icons8-firebase-480.png"
+      },
+    {
+      "name": "GitHub",
+      "level": "intermediate",
+      "image": "https://i.ibb.co/6FdKDB9/icons8-github-500.png"
+    }
+
+  ]
